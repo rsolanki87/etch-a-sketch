@@ -12,6 +12,7 @@ h1 {
 
 body {
     background-color: #D2E4E8;
+    overflow-x: hidden;
 }
 
 main {
@@ -45,7 +46,7 @@ main {
 button {
     background-color: #D2E4E8;
     color: #494B4C;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Pacifico', cursive;
     padding: 10px 32px;
     width: 100%;
@@ -93,10 +94,37 @@ input[type='range']::-webkit-slider-thumb {
 
 .size-value {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Pacifico', cursive;
 }
 
 .grid-item {
     border: 1px solid #E2F6FA;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+}
+
+footer p {
+    color: #494B4C;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.1rem;
+}
+
+.link {
+    color: #494B4C;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.link:hover {
+    color: #535556;
+    transform: scale(1.1);
 }
